@@ -1,0 +1,47 @@
+MVC:
+
+Model:
+
+	validations: presence uniqueness
+	association: has_many belongs_to , has_one
+	scope
+	attr_accessible
+
+View:
+	helper tab: form_for, text_field, checkbox, textarea
+	use ruby code inside <%%>
+
+Controller:
+
+	filter: before_filter, after_filter, 
+	REST: index, show, new, create, edit, update, destroy
+	params
+	session
+	format: html, js, json, xml
+
+routes:
+ nested,
+ default 7 methods
+ customize
+ member do 
+ end
+ collection do 
+ end
+
+config:
+ datatabe.yml
+ application.rb
+ environments/*.rb
+
+migrations:
+ creat_table
+ rename_column
+ add_column
+ execute
+
+
+
+
+
+
+
